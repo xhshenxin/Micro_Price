@@ -5,6 +5,7 @@ Collect 5 hours of SH and SDS data (frequency was 10 seconds, now updated to sho
 
 ## 2. data_exploration
 Explore the states of cointegration residual and imbalances.
+(Please change the number of hours in "df_flip.time+=timedelta(hours=5)" based on the data length.)
 
 ## 3. Markov_estimation
 Construct the transition matrix given residual and imbalance states.
